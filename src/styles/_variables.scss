@@ -1,0 +1,131 @@
+// ==========================================
+// Paleta de Colores Oficial - CinéPolis
+// ==========================================
+
+// Dorados metálicos (gradientes interactivos, lujo, futurista)
+$gold-primary: #C5A028;
+$gold-light: #D4AF37;
+$gold-dark: #A68523;
+$gold-metallic: #E8D48B;
+
+// Azul profundo (base principal: fachadas, app, logos)
+$blue-deep: #0A1628;
+$blue-base: #0F2440;
+$blue-medium: #1A3A5C;
+
+// Violeta cósmico (acento cromático, profundidad, modernidad)
+$violet-cosmic: #4A1A6B;
+$violet-light: #6B3FA0;
+$violet-accent: #8B5CF6;
+
+// Cian neón (detalles luminosos)
+$cyan-neon: #00E5FF;
+$cyan-light: #67EFFF;
+$cyan-muted: #4DD0E1;
+
+// Blancos y neutros (fondos limpios, contraste)
+$white: #FFFFFF;
+$white-smoke: #F5F5F7;
+$gray-light: #E0E0E6;
+$gray-medium: #A0A0B0;
+$gray-dark: #4A4A5A;
+
+// ==========================================
+// Semánticos
+// ==========================================
+$primary: $blue-deep;
+$primary-light: $blue-base;
+$accent: $gold-primary;
+$accent-light: $gold-light;
+$accent-violet: $violet-accent;
+$text-primary: $white;
+$text-secondary: $gray-medium;
+$surface: $blue-medium;
+$surface-dark: $blue-deep;
+
+// Estados
+$success: #4CAF50;
+$warning: #FF9800;
+$danger: #F44336;
+$info: $cyan-neon;
+
+// Asientos
+$seat-available: $success;
+$seat-selected: $gold-primary;
+$seat-occupied: $danger;
+$seat-vip: $violet-accent;
+
+// ==========================================
+// Tipografía
+// ==========================================
+$font-primary: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
+$font-heading: 'Montserrat', 'Inter', sans-serif;
+
+$font-size-xs: 0.75rem;
+$font-size-sm: 0.875rem;
+$font-size-base: 1rem;
+$font-size-lg: 1.125rem;
+$font-size-xl: 1.25rem;
+$font-size-2xl: 1.5rem;
+$font-size-3xl: 2rem;
+$font-size-4xl: 2.5rem;
+
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+
+// ==========================================
+// Breakpoints
+// ==========================================
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+$breakpoint-xxl: 1400px;
+
+// ==========================================
+// Espaciado
+// ==========================================
+$spacing-xs: 0.25rem;
+$spacing-sm: 0.5rem;
+$spacing-md: 1rem;
+$spacing-lg: 1.5rem;
+$spacing-xl: 2rem;
+$spacing-2xl: 3rem;
+$spacing-3xl: 4rem;
+
+// ==========================================
+// Bordes y sombras
+// ==========================================
+$border-radius-sm: 4px;
+$border-radius-md: 8px;
+$border-radius-lg: 12px;
+$border-radius-xl: 16px;
+$border-radius-full: 50%;
+
+$shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
+$shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
+$shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.5);
+$shadow-glow-gold: 0 0 20px rgba($gold-primary, 0.3);
+$shadow-glow-cyan: 0 0 20px rgba($cyan-neon, 0.3);
+$shadow-glow-violet: 0 0 20px rgba($violet-accent, 0.3);
+
+// ==========================================
+// Transiciones
+// ==========================================
+$transition-fast: 150ms ease;
+$transition-base: 300ms ease;
+$transition-slow: 500ms ease;
+
+// ==========================================
+// Z-index
+// ==========================================
+$z-dropdown: 100;
+$z-sticky: 200;
+$z-fixed: 300;
+$z-modal-backdrop: 400;
+$z-modal: 500;
+$z-popover: 600;
+$z-tooltip: 700;

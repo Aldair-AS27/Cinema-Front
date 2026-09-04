@@ -1,0 +1,11 @@
+// ==========================================
+// Entry Point - Global Styles
+// ==========================================
+// Importar en orden: variables > reset > tipografía > mixins > animaciones > utilidades
+
+@use 'variables' as *;
+@use 'reset';
+@use 'typography';
+@use 'mixins';
+@use 'animations';
+@use 'utilities';
