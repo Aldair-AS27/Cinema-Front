@@ -1,19 +1,21 @@
-/**
- * Modelo de la entidad FuncionHorario (la cartelera).
- * Cruza una Pelicula con una Sala en una fecha/hora específica.
- * Refleja la tabla `funcion_horario` de Supabase.
- */
 export interface FuncionHorario {
   id: string;
+  idFuncion?: number;
   pelicula_id: string;
+  idPelicula?: number;
   sala_id: string;
+  idSala?: number;
   fecha: string;        // ISO date: 'YYYY-MM-DD'
   hora_inicio: string;  // 'HH:mm'
   precio: number;
+  precioBase?: number;
+  formato?: string;
+  version?: string;
   activa?: boolean;
+  estado?: string;
   created_at?: string;
 
-  /** Relaciones opcionales (pueden venir populadas del backend con JOIN) */
+  /** Relaciones opcionales */
   pelicula?: {
     titulo: string;
     imagen_url: string;

@@ -1,18 +1,15 @@
-/**
- * Tipos posibles para una butaca.
- */
 export type TipoButaca = 'regular' | 'vip' | 'discapacitados';
 
-/**
- * Modelo de la entidad Butaca (asiento físico estático de una sala).
- * Refleja la tabla `butaca` de Supabase.
- */
 export interface Butaca {
   id: string;
+  idButaca?: number;
   sala_id: string;
-  fila: string;      // ejemplo: 'A', 'B', 'C' ...
-  numero: number;    // ejemplo: 1, 2, 3 ...
-  tipo: TipoButaca;
+  idSala?: number;
+  fila: string;
+  numero: number;
+  tipo: TipoButaca | string;
+  tipoButaca?: string;
+  estadoOperativo?: string;
   created_at?: string;
 }
 

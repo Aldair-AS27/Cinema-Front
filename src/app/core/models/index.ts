@@ -7,3 +7,5 @@ export * from './sala.model';
 export * from './butaca.model';
 export * from './funcion-horario.model';
 export * from './funcion-butaca.model';
+export * from './dulceria.model';
+export * from './reserva.model';

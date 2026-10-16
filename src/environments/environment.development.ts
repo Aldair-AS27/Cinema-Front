@@ -1,10 +1,9 @@
 /**
- * Entorno de DESARROLLO.
- * Mientras el backend no esté disponible, `useMocks: true` activa datos simulados locales.
- * Cuando el backend esté listo: cambia `apiUrl` y pon `useMocks: false`.
+ * Entorno de DESARROLLO conectado al backend real Spring Boot en localhost:8080.
+ * `useMocks: false` activa las llamadas HTTP reales a los endpoints de la API.
  */
 export const environment = {
   production: false,
-  apiUrl: 'http://localhost:3000/api', // ← URL local de desarrollo (o Swagger local)
-  useMocks: true,                      // ← true = usa datos mock, false = llama al backend real
+  apiUrl: 'http://localhost:8080/api',
+  useMocks: false,
 };
