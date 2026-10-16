@@ -1,0 +1,61 @@
+/* ╔══════════════════════════════════════════════════════════╗
+   ║  CINEPOLIS · DESIGN SYSTEM · VARIABLES GLOBALES          ║
+   ║  Paleta: Azul Profundo · Dorado Elegante · Blanco Glass  ║
+   ╚══════════════════════════════════════════════════════════╝ */
+
+:root {
+  /* ── Paleta Principal ─────────────────────────────── */
+  --blue-950:  #030712;   /* fondo ultra profundo */
+  --blue-900:  #0a0f1e;   /* fondo principal */
+  --blue-800:  #0d1b2a;   /* fondo de cards */
+  --blue-700:  #112240;   /* bordes y superficies */
+  --blue-600:  #1a3558;   /* hover superficies */
+  --blue-400:  #2d6a9f;   /* azul medio */
+  --blue-200:  #7eb8e6;   /* azul claro */
+  --blue-100:  #cfe8ff;   /* texto sobre fondos oscuros */
+
+  --gold-500:  #c9a84c;   /* dorado principal */
+  --gold-400:  #e2bc6a;   /* dorado claro */
+  --gold-300:  #f0d080;   /* dorado muy claro */
+  --gold-600:  #a07c2d;   /* dorado oscuro (hover) */
+
+  --white:     #ffffff;
+  --glass:     rgba(255,255,255,0.05);   /* blanco transparente glass */
+  --glass-md:  rgba(255,255,255,0.08);
+  --glass-bdr: rgba(255,255,255,0.12);  /* bordes glass */
+
+  /* ── Semántica ───────────────────────────────────── */
+  --text-primary:   #e8edf4;
+  --text-secondary: #94a3b8;
+  --text-muted:     #64748b;
+  --text-gold:      var(--gold-400);
+
+  /* ── Estados de Asientos ─────────────────────────── */
+  --seat-available: #1a4731;
+  --seat-available-bdr: #22c55e;
+  --seat-selected:  #713f12;
+  --seat-selected-bdr: #f59e0b;
+  --seat-occupied:  #450a0a;
+  --seat-occupied-bdr: #ef4444;
+  --seat-reserved:  #431407;
+  --seat-reserved-bdr: #f97316;
+  --seat-blocked:   #1e293b;
+  --seat-blocked-bdr: #475569;
+
+  /* ── Efectos ─────────────────────────────────────── */
+  --shadow-sm:  0 2px 8px rgba(0,0,0,0.4);
+  --shadow-md:  0 4px 24px rgba(0,0,0,0.5);
+  --shadow-lg:  0 8px 48px rgba(0,0,0,0.6);
+  --glow-gold:  0 0 20px rgba(201,168,76,0.3);
+  --glow-blue:  0 0 30px rgba(45,106,159,0.4);
+
+  /* ── Transiciones ────────────────────────────────── */
+  --transition: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* ── Bordes ──────────────────────────────────────── */
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+}
